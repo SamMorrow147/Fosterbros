@@ -1,0 +1,206 @@
+{
+  "types": [
+    "Boats",
+    "Engines",
+    "Jet Boats",
+    "Pontoons",
+    "Trailers"
+  ],
+  "usage": [
+    "= productDataSource.usageStatus.trim();",
+    "Excellent",
+    "New",
+    "Used"
+  ],
+  "brands": [
+    "Four Winns",
+    "Hansen",
+    "Honda",
+    "Kingfisher",
+    "Manitou",
+    "Mitey-Toon",
+    "SeaArk",
+    "Skeeter",
+    "Starcraft",
+    "Tebben",
+    "Yamaha",
+    "Yar-Craft"
+  ],
+  "makes": [
+    "Four Winns",
+    "Hansen",
+    "Honda",
+    "Kingfisher",
+    "Manitou",
+    "Mitey-Toon",
+    "SeaArk",
+    "Skeeter",
+    "Starcraft",
+    "Tebben",
+    "Yamaha",
+    "Yar-Craft"
+  ],
+  "categories": [
+    "Boats",
+    "Engines",
+    "Jet Boats",
+    "Pontoons",
+    "Trailers"
+  ],
+  "styles": [
+    "Standard"
+  ],
+  "availability": [
+    "Coming Soon",
+    "In Stock",
+    "Incoming",
+    "Sold"
+  ],
+  "fuelTypes": [
+    "Gas"
+  ],
+  "engineTypes": [
+    "In-Line",
+    "Outboard",
+    "Single-Cylinder",
+    "V6"
+  ],
+  "locations": [
+    "Delano, MN"
+  ],
+  "years": {
+    "min": 2008,
+    "max": 2026,
+    "values": [
+      2008,
+      2017,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "prices": {
+    "min": 1000,
+    "max": 163026,
+    "values": [
+      1000,
+      2500,
+      2800,
+      3152,
+      3230,
+      3300,
+      3365,
+      3599,
+      3790,
+      3850,
+      3890,
+      3894,
+      4564,
+      5167,
+      6500,
+      6570,
+      7270,
+      7800,
+      10020,
+      10212,
+      11297,
+      11500,
+      12900,
+      13669,
+      19900,
+      23499,
+      29190,
+      37799,
+      44086,
+      46699,
+      47999,
+      48927,
+      49199,
+      49999,
+      55249,
+      60316,
+      65748,
+      71895,
+      76999,
+      79499,
+      79999,
+      102000,
+      103249,
+      104794,
+      114945,
+      116109,
+      163026
+    ]
+  },
+  "lengths": {
+    "min": 19.8,
+    "max": 348.88,
+    "values": [
+      19.8,
+      192.49,
+      222.56,
+      227.58,
+      245.62,
+      246.62,
+      348.88
+    ]
+  },
+  "beams": {
+    "min": 8.4,
+    "max": 102.2,
+    "values": [
+      8.4,
+      72.1,
+      88.2,
+      99.2,
+      100.2,
+      101.2,
+      102.2
+    ]
+  },
+  "horsepowers": {
+    "min": 11585.8,
+    "max": 400298.5,
+    "values": [
+      11585.8,
+      200149.2,
+      250186.5,
+      400298.5
+    ]
+  },
+  "specFields": [
+    "Advertising",
+    "Alternator",
+    "Beam",
+    "Bore x Stroke",
+    "Capacity",
+    "Cooling",
+    "Cylinders",
+    "Deck Length",
+    "Deck Width",
+    "Displacement",
+    "Draft",
+    "Dry Weight",
+    "Engine Horsepower",
+    "Engine Type",
+    "Essential",
+    "Fuel Capacity",
+    "Fuel Induction",
+    "Functional",
+    "Length Overall",
+    "Max Carry Load",
+    "Max HP",
+    "Max Person Capacity",
+    "Number of Tubes",
+    "Propshaft Horsepower",
+    "Starting",
+    "Steering",
+    "Trim Method",
+    "Warranty",
+    "Weight",
+    "capacity",
+    "dryWeight",
+    "fuelCapacity"
+  ]
+}

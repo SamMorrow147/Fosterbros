@@ -1,0 +1,918 @@
+[
+  {
+    "id": "1",
+    "slug": "2025-starcraft-sls-3",
+    "title": "2025 Starcraft SLS 3",
+    "brand": "Starcraft",
+    "make": "Starcraft",
+    "category": "Pontoons",
+    "type": "Pontoons",
+    "style": "SLS Series",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2025,
+    "price": 64999,
+    "length": 25,
+    "beam": 102,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 200,
+    "imagesFull": [
+      "/assets/images/car-list/car-list1.jpg",
+      "/assets/images/car-list/car-list2.jpg",
+      "/assets/images/car-list/car-list3.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list1.jpg"
+    ],
+    "description": "The Starcraft SLS 3 delivers premium pontoon luxury with innovative design and exceptional performance. Perfect for family cruising and entertaining.",
+    "specs": {
+      "dryWeight": 2800,
+      "hullMaterial": "Aluminum",
+      "color": "Blue/White",
+      "capacity": "12 persons",
+      "fuelCapacity": "30 gallons"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "SLS25001"
+  },
+  {
+    "id": "2",
+    "slug": "2026-manitou-aurora-le",
+    "title": "2026 Manitou Aurora LE",
+    "brand": "Manitou",
+    "make": "Manitou",
+    "category": "Pontoons",
+    "type": "Pontoons",
+    "style": "Aurora",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2026,
+    "price": 78900,
+    "length": 23,
+    "beam": 102,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 250,
+    "imagesFull": [
+      "/assets/images/car-list/car-list4.jpg",
+      "/assets/images/car-list/car-list5.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list4.jpg"
+    ],
+    "description": "Experience luxury on the water with the Manitou Aurora LE. Premium materials, cutting-edge design, and powerful performance.",
+    "specs": {
+      "dryWeight": 3200,
+      "hullMaterial": "Aluminum",
+      "color": "Silver/Black",
+      "capacity": "14 persons",
+      "fuelCapacity": "35 gallons"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "MAN26001"
+  },
+  {
+    "id": "3",
+    "slug": "2025-kingfisher-2025-coastal",
+    "title": "2025 Kingfisher 2025 Coastal",
+    "brand": "Kingfisher Boats",
+    "make": "Kingfisher Boats",
+    "category": "Boats",
+    "type": "Boats",
+    "style": "Coastal",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2025,
+    "price": 45999,
+    "length": 20.5,
+    "beam": 96,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 150,
+    "imagesFull": [
+      "/assets/images/car-list/car-list6.jpg",
+      "/assets/images/car-list/car-list7.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list6.jpg"
+    ],
+    "description": "Built tough for serious anglers. The Kingfisher Coastal offers exceptional stability and fishing features.",
+    "specs": {
+      "dryWeight": 2100,
+      "hullMaterial": "Aluminum",
+      "color": "Gray/Red",
+      "capacity": "6 persons",
+      "fuelCapacity": "45 gallons"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "KF25001"
+  },
+  {
+    "id": "4",
+    "slug": "2024-skeeter-wx-series-2060",
+    "title": "2024 Skeeter WX Series 2060",
+    "brand": "Skeeter",
+    "make": "Skeeter",
+    "category": "Boats",
+    "type": "Boats",
+    "style": "WX Series",
+    "usage": "Used",
+    "availability": "In Stock",
+    "year": 2024,
+    "price": 38500,
+    "length": 20,
+    "beam": 94,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 200,
+    "imagesFull": [
+      "/assets/images/car-list/car-list8.jpg",
+      "/assets/images/car-list/car-list9.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list8.jpg"
+    ],
+    "description": "Tournament-ready Skeeter bass boat with premium electronics and livewells. Lightly used, excellent condition.",
+    "specs": {
+      "dryWeight": 1950,
+      "hullMaterial": "Fiberglass",
+      "color": "Red/Black",
+      "capacity": "3 persons",
+      "fuelCapacity": "40 gallons"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "SK24001"
+  },
+  {
+    "id": "5",
+    "slug": "2025-yar-craft-multi-species-189",
+    "title": "2025 Yar-Craft Multi-Species 189",
+    "brand": "Yar-Craft",
+    "make": "Yar-Craft",
+    "category": "Boats",
+    "type": "Boats",
+    "style": "Multi-Species",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2025,
+    "price": 42900,
+    "length": 18.9,
+    "beam": 92,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 150,
+    "imagesFull": [
+      "/assets/images/car-list/car-list10.jpg",
+      "/assets/images/car-list/car-list11.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list10.jpg"
+    ],
+    "description": "Versatile aluminum fishing boat perfect for lakes and rivers. Built in Minnesota for Minnesota waters.",
+    "specs": {
+      "dryWeight": 1800,
+      "hullMaterial": "Aluminum",
+      "color": "Green/Tan",
+      "capacity": "6 persons",
+      "fuelCapacity": "30 gallons"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "YC25001"
+  },
+  {
+    "id": "6",
+    "slug": "2026-honda-marine-bf250",
+    "title": "2026 Honda Marine BF250",
+    "brand": "Honda Marine",
+    "make": "Honda Marine",
+    "category": "Outboard Motors",
+    "type": "Outboard Motors",
+    "style": "Outboard",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2026,
+    "price": 18999,
+    "length": 0,
+    "beam": 0,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 250,
+    "imagesFull": [
+      "/assets/images/car-list/car-list12.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list12.jpg"
+    ],
+    "description": "Honda's legendary reliability meets exceptional power. The BF250 delivers smooth, quiet operation with industry-leading fuel efficiency.",
+    "specs": {
+      "displacement": "3.6L V6",
+      "weight": "612 lbs",
+      "controlType": "Mechanical or Digital",
+      "shaftLength": "25 or 30 inch",
+      "warranty": "5 years non-declining"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "HM26001"
+  },
+  {
+    "id": "7",
+    "slug": "2025-yamaha-f200",
+    "title": "2025 Yamaha F200",
+    "brand": "Yamaha",
+    "make": "Yamaha",
+    "category": "Outboard Motors",
+    "type": "Outboard Motors",
+    "style": "Outboard",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2025,
+    "price": 16499,
+    "length": 0,
+    "beam": 0,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 200,
+    "imagesFull": [
+      "/assets/images/car-list/car-list13.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list13.jpg"
+    ],
+    "description": "The Yamaha F200 inline four outboard provides exceptional acceleration and top speed with advanced fuel injection.",
+    "specs": {
+      "displacement": "2.8L Inline 4",
+      "weight": "467 lbs",
+      "controlType": "Digital Electronic",
+      "shaftLength": "20, 25 or 30 inch",
+      "warranty": "3 years"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "YM25001"
+  },
+  {
+    "id": "8",
+    "slug": "2025-tebben-pontoon-trailer-2500",
+    "title": "2025 Tebben Pontoon Trailer 2500",
+    "brand": "Tebben Trailers",
+    "make": "Tebben Trailers",
+    "category": "Trailers",
+    "type": "Pontoon Trailers",
+    "style": "Standard",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2025,
+    "price": 4999,
+    "length": 25,
+    "beam": 102,
+    "fuelType": null,
+    "engineType": null,
+    "horsepower": null,
+    "imagesFull": [
+      "/assets/images/car-list/car-list14.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list14.jpg"
+    ],
+    "description": "Heavy-duty pontoon trailer with adjustable bunks and LED lighting. Built for boats up to 25 feet.",
+    "specs": {
+      "capacity": "2500 lbs",
+      "axle": "Single",
+      "brakes": "Electric",
+      "tireSize": "14 inch",
+      "frame": "Galvanized Steel"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "TB25001"
+  },
+  {
+    "id": "9",
+    "slug": "2024-hansen-boat-trailer-2200",
+    "title": "2024 Hansen Boat Trailer 2200",
+    "brand": "Hansen",
+    "make": "Hansen",
+    "category": "Trailers",
+    "type": "Boat Trailers",
+    "style": "Standard",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2024,
+    "price": 3899,
+    "length": 22,
+    "beam": 96,
+    "fuelType": null,
+    "engineType": null,
+    "horsepower": null,
+    "imagesFull": [
+      "/assets/images/car-list/car-list15.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list15.jpg"
+    ],
+    "description": "Quality aluminum boat trailer with roller system for easy loading. Perfect for fishing boats up to 22 feet.",
+    "specs": {
+      "capacity": "2200 lbs",
+      "axle": "Single",
+      "brakes": "Surge",
+      "tireSize": "13 inch",
+      "frame": "Aluminum"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "HS24001"
+  },
+  {
+    "id": "10",
+    "slug": "2025-starcraft-rx-series-190",
+    "title": "2025 Starcraft RX Series 190",
+    "brand": "Starcraft",
+    "make": "Starcraft",
+    "category": "Pontoons",
+    "type": "Pontoons",
+    "style": "RX Series",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2025,
+    "price": 52900,
+    "length": 19,
+    "beam": 96,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 115,
+    "imagesFull": [
+      "/assets/images/car-list/car-list16.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list16.jpg"
+    ],
+    "description": "Compact and maneuverable, the RX 190 is perfect for smaller lakes and easy towing.",
+    "specs": {
+      "dryWeight": 2200,
+      "hullMaterial": "Aluminum",
+      "color": "Tan/Brown",
+      "capacity": "10 persons",
+      "fuelCapacity": "25 gallons"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "RX25001"
+  },
+  {
+    "id": "11",
+    "slug": "2026-four-winns-horizon-190",
+    "title": "2026 Four Winns Horizon 190",
+    "brand": "Four Winns",
+    "make": "Four Winns",
+    "category": "Boats",
+    "type": "Boats",
+    "style": "H Series",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2026,
+    "price": 48900,
+    "length": 19,
+    "beam": 94,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 150,
+    "imagesFull": [
+      "/assets/images/car-list/car-list17.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list17.jpg"
+    ],
+    "description": "Four Winns quality and styling in a versatile bowrider. Great for cruising, water sports, and fishing.",
+    "specs": {
+      "dryWeight": 2400,
+      "hullMaterial": "Fiberglass",
+      "color": "White/Blue",
+      "capacity": "8 persons",
+      "fuelCapacity": "35 gallons"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "FW26001"
+  },
+  {
+    "id": "12",
+    "slug": "2023-seaark-fishing-1872",
+    "title": "2023 SeaArk Fishing 1872",
+    "brand": "SeaArk",
+    "make": "SeaArk",
+    "category": "Boats",
+    "type": "Boats",
+    "style": "Fishing",
+    "usage": "Used",
+    "availability": "In Stock",
+    "year": 2023,
+    "price": 28900,
+    "length": 18.6,
+    "beam": 90,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 90,
+    "imagesFull": [
+      "/assets/images/car-list/car-list18.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list18.jpg"
+    ],
+    "description": "Rugged aluminum fishing boat, lightly used. Perfect for serious anglers who need reliability.",
+    "specs": {
+      "dryWeight": 1650,
+      "hullMaterial": "Aluminum",
+      "color": "Camo Green",
+      "capacity": "5 persons",
+      "fuelCapacity": "25 gallons"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "SA23001"
+  },
+  {
+    "id": "13",
+    "slug": "2025-manitou-lx-series-22",
+    "title": "2025 Manitou LX Series 22",
+    "brand": "Manitou",
+    "make": "Manitou",
+    "category": "Pontoons",
+    "type": "Pontoons",
+    "style": "LX Series",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2025,
+    "price": 69500,
+    "length": 22,
+    "beam": 102,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 200,
+    "imagesFull": [
+      "/assets/images/car-list/car-list19.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list19.jpg"
+    ],
+    "description": "Luxury pontoon with premium amenities. The LX Series offers the perfect blend of comfort and performance.",
+    "specs": {
+      "dryWeight": 2900,
+      "hullMaterial": "Aluminum",
+      "color": "Navy/Cream",
+      "capacity": "12 persons",
+      "fuelCapacity": "32 gallons"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "LX25001"
+  },
+  {
+    "id": "14",
+    "slug": "2026-mitey-toon-electric-pontoon",
+    "title": "2026 Mitey-Toon Electric Pontoon",
+    "brand": "Mitey-Toon",
+    "make": "Mitey-Toon",
+    "category": "Pontoons",
+    "type": "Electric Pontoons",
+    "style": "Electric",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2026,
+    "price": 32900,
+    "length": 16,
+    "beam": 86,
+    "fuelType": "Electric",
+    "engineType": "Electric Motor",
+    "horsepower": 50,
+    "imagesFull": [
+      "/assets/images/car-list/car-list20.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list20.jpg"
+    ],
+    "description": "Silent, emission-free cruising on Minnesota lakes. Perfect for relaxed family outings.",
+    "specs": {
+      "dryWeight": 1800,
+      "hullMaterial": "Aluminum",
+      "color": "White/Green",
+      "capacity": "8 persons",
+      "batteryRange": "25 miles"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "MT26001"
+  },
+  {
+    "id": "15",
+    "slug": "2025-skeeter-wxr-series-2060",
+    "title": "2025 Skeeter WXR Series 2060",
+    "brand": "Skeeter",
+    "make": "Skeeter",
+    "category": "Boats",
+    "type": "Boats",
+    "style": "WXR Series",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2025,
+    "price": 54900,
+    "length": 20.6,
+    "beam": 95,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 250,
+    "imagesFull": [
+      "/assets/images/car-list/car-list21.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list21.jpg"
+    ],
+    "description": "Tournament-grade walleye boat with all the features serious anglers demand.",
+    "specs": {
+      "dryWeight": 2150,
+      "hullMaterial": "Fiberglass",
+      "color": "Blue/Silver",
+      "capacity": "4 persons",
+      "fuelCapacity": "45 gallons"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "WXR25001"
+  },
+  {
+    "id": "16",
+    "slug": "2017-yar-craft-multi-species-166",
+    "title": "2017 Yar-Craft Multi-Species 166",
+    "brand": "Yar-Craft",
+    "make": "Yar-Craft",
+    "category": "Boats",
+    "type": "Boats",
+    "style": "Multi-Species",
+    "usage": "Used",
+    "availability": "In Stock",
+    "year": 2017,
+    "price": 19900,
+    "length": 16.6,
+    "beam": 86,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 75,
+    "imagesFull": [
+      "/assets/images/car-list/car-list22.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list22.jpg"
+    ],
+    "description": "Well-maintained used boat. Great starter boat for new anglers.",
+    "specs": {
+      "dryWeight": 1400,
+      "hullMaterial": "Aluminum",
+      "color": "Green/Gray",
+      "capacity": "4 persons",
+      "fuelCapacity": "20 gallons"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "YC17001"
+  },
+  {
+    "id": "17",
+    "slug": "2025-yamaha-f115",
+    "title": "2025 Yamaha F115",
+    "brand": "Yamaha",
+    "make": "Yamaha",
+    "category": "Outboard Motors",
+    "type": "Outboard Motors",
+    "style": "Outboard",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2025,
+    "price": 11499,
+    "length": 0,
+    "beam": 0,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 115,
+    "imagesFull": [
+      "/assets/images/car-list/car-list23.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list23.jpg"
+    ],
+    "description": "Mid-range power with Yamaha reliability. Perfect for pontoons and mid-size fishing boats.",
+    "specs": {
+      "displacement": "1.8L Inline 4",
+      "weight": "376 lbs",
+      "controlType": "Mechanical",
+      "shaftLength": "20 or 25 inch",
+      "warranty": "3 years"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "YM25002"
+  },
+  {
+    "id": "18",
+    "slug": "2026-honda-marine-bf150",
+    "title": "2026 Honda Marine BF150",
+    "brand": "Honda Marine",
+    "make": "Honda Marine",
+    "category": "Outboard Motors",
+    "type": "Outboard Motors",
+    "style": "Outboard",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2026,
+    "price": 14999,
+    "length": 0,
+    "beam": 0,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 150,
+    "imagesFull": [
+      "/assets/images/car-list/car-list24.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list24.jpg"
+    ],
+    "description": "Honda's 150hp outboard combines exceptional fuel efficiency with smooth, quiet operation.",
+    "specs": {
+      "displacement": "2.4L Inline 4",
+      "weight": "430 lbs",
+      "controlType": "Digital",
+      "shaftLength": "20, 25 or 30 inch",
+      "warranty": "5 years non-declining"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "HM26002"
+  },
+  {
+    "id": "19",
+    "slug": "2025-starcraft-cx-series-23",
+    "title": "2025 Starcraft CX Series 23",
+    "brand": "Starcraft",
+    "make": "Starcraft",
+    "category": "Pontoons",
+    "type": "Pontoons",
+    "style": "CX Series",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2025,
+    "price": 58900,
+    "length": 23,
+    "beam": 102,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 175,
+    "imagesFull": [
+      "/assets/images/car-list/car-list25.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list25.jpg"
+    ],
+    "description": "The CX Series combines comfort and value. Great for families looking for quality without breaking the bank.",
+    "specs": {
+      "dryWeight": 2600,
+      "hullMaterial": "Aluminum",
+      "color": "Charcoal/Red",
+      "capacity": "12 persons",
+      "fuelCapacity": "28 gallons"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "CX25001"
+  },
+  {
+    "id": "20",
+    "slug": "2024-kingfisher-dxs-series-2025",
+    "title": "2024 Kingfisher DXS Series 2025",
+    "brand": "Kingfisher Boats",
+    "make": "Kingfisher Boats",
+    "category": "Boats",
+    "type": "Boats",
+    "style": "DXS Series",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2024,
+    "price": 51900,
+    "length": 20.25,
+    "beam": 96,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 175,
+    "imagesFull": [
+      "/assets/images/car-list/car-list26.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list26.jpg"
+    ],
+    "description": "Deluxe fishing features in a proven Kingfisher hull. Built for Northwest waters.",
+    "specs": {
+      "dryWeight": 2200,
+      "hullMaterial": "Aluminum",
+      "color": "Charcoal/Orange",
+      "capacity": "6 persons",
+      "fuelCapacity": "42 gallons"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "KF24001"
+  },
+  {
+    "id": "21",
+    "slug": "2025-four-winns-solera-series-250",
+    "title": "2025 Four Winns Solera Series 250",
+    "brand": "Four Winns",
+    "make": "Four Winns",
+    "category": "Boats",
+    "type": "Boats",
+    "style": "Solera Series",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2025,
+    "price": 89900,
+    "length": 25,
+    "beam": 102,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 300,
+    "imagesFull": [
+      "/assets/images/car-list/car-list27.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list27.jpg"
+    ],
+    "description": "Luxury deck boat with spacious seating and powerful performance. Perfect for entertaining.",
+    "specs": {
+      "dryWeight": 3800,
+      "hullMaterial": "Fiberglass",
+      "color": "White/Burgundy",
+      "capacity": "14 persons",
+      "fuelCapacity": "60 gallons"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "FW25001"
+  },
+  {
+    "id": "22",
+    "slug": "2025-tebben-boat-trailer-2000",
+    "title": "2025 Tebben Boat Trailer 2000",
+    "brand": "Tebben Trailers",
+    "make": "Tebben Trailers",
+    "category": "Trailers",
+    "type": "Boat Trailers",
+    "style": "Standard",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2025,
+    "price": 3499,
+    "length": 20,
+    "beam": 92,
+    "fuelType": null,
+    "engineType": null,
+    "horsepower": null,
+    "imagesFull": [
+      "/assets/images/car-list/car-list28.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list28.jpg"
+    ],
+    "description": "Quality boat trailer for boats up to 20 feet. Galvanized for corrosion resistance.",
+    "specs": {
+      "capacity": "2000 lbs",
+      "axle": "Single",
+      "brakes": "Surge",
+      "tireSize": "13 inch",
+      "frame": "Galvanized Steel"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "TB25002"
+  },
+  {
+    "id": "23",
+    "slug": "2008-skeeter-wx-series-1850",
+    "title": "2008 Skeeter WX Series 1850",
+    "brand": "Skeeter",
+    "make": "Skeeter",
+    "category": "Boats",
+    "type": "Boats",
+    "style": "WX Series",
+    "usage": "Used",
+    "availability": "In Stock",
+    "year": 2008,
+    "price": 18900,
+    "length": 18.5,
+    "beam": 92,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 150,
+    "imagesFull": [
+      "/assets/images/car-list/car-list29.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list29.jpg"
+    ],
+    "description": "Well-maintained classic Skeeter. Perfect for anglers on a budget.",
+    "specs": {
+      "dryWeight": 1750,
+      "hullMaterial": "Fiberglass",
+      "color": "Blue/White",
+      "capacity": "3 persons",
+      "fuelCapacity": "35 gallons"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "SK08001"
+  },
+  {
+    "id": "24",
+    "slug": "2026-manitou-ex-series-25",
+    "title": "2026 Manitou EX Series 25",
+    "brand": "Manitou",
+    "make": "Manitou",
+    "category": "Pontoons",
+    "type": "Pontoons",
+    "style": "EX Series",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2026,
+    "price": 72900,
+    "length": 25,
+    "beam": 102,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 250,
+    "imagesFull": [
+      "/assets/images/car-list/car-list30.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list30.jpg"
+    ],
+    "description": "The EX Series delivers exceptional performance with premium luxury features.",
+    "specs": {
+      "dryWeight": 3100,
+      "hullMaterial": "Aluminum",
+      "color": "Black/Tan",
+      "capacity": "14 persons",
+      "fuelCapacity": "38 gallons"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "EX26001"
+  },
+  {
+    "id": "25",
+    "slug": "2025-hansen-pontoon-trailer-2800",
+    "title": "2025 Hansen Pontoon Trailer 2800",
+    "brand": "Hansen",
+    "make": "Hansen",
+    "category": "Trailers",
+    "type": "Pontoon Trailers",
+    "style": "Standard",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2025,
+    "price": 5499,
+    "length": 26,
+    "beam": 102,
+    "fuelType": null,
+    "engineType": null,
+    "horsepower": null,
+    "imagesFull": [
+      "/assets/images/car-list/car-list31.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list31.jpg"
+    ],
+    "description": "Heavy-duty pontoon trailer with tandem axles for larger boats. LED lights and electric brakes.",
+    "specs": {
+      "capacity": "2800 lbs",
+      "axle": "Tandem",
+      "brakes": "Electric",
+      "tireSize": "15 inch",
+      "frame": "Galvanized Steel"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "HS25001"
+  },
+  {
+    "id": "26",
+    "slug": "2025-yamaha-f75",
+    "title": "2025 Yamaha F75",
+    "brand": "Yamaha",
+    "make": "Yamaha",
+    "category": "Outboard Motors",
+    "type": "Outboard Motors",
+    "style": "Outboard",
+    "usage": "New",
+    "availability": "In Stock",
+    "year": 2025,
+    "price": 8499,
+    "length": 0,
+    "beam": 0,
+    "fuelType": "Gas",
+    "engineType": "Outboard",
+    "horsepower": 75,
+    "imagesFull": [
+      "/assets/images/car-list/car-list32.jpg"
+    ],
+    "imagesThumb": [
+      "/assets/images/car-list/car-list32.jpg"
+    ],
+    "description": "Compact and efficient, the F75 is perfect for smaller boats and pontoons.",
+    "specs": {
+      "displacement": "1.0L Inline 4",
+      "weight": "247 lbs",
+      "controlType": "Mechanical",
+      "shaftLength": "20 inch",
+      "warranty": "3 years"
+    },
+    "location": "Delano, MN",
+    "stockNumber": "YM25003"
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "usage": ["New", "Used"],
+  "years": [2026, 2025, 2024, 2023, 2017, 2008],
+  "types": [
+    "Boat Trailers",
+    "Boats",
+    "Electric Pontoons",
+    "Outboard Motors",
+    "Pontoon Trailers",
+    "Pontoons"
+  ],
+  "makes": [
+    "Four Winns",
+    "Hansen",
+    "Honda Marine",
+    "Kingfisher Boats",
+    "Manitou",
+    "Mitey-Toon",
+    "SeaArk",
+    "Skeeter",
+    "Starcraft",
+    "Tebben Trailers",
+    "Yamaha",
+    "Yar-Craft"
+  ],
+  "styles": [
+    "Aurora",
+    "CX Series",
+    "Coastal",
+    "DXS Series",
+    "EX Series",
+    "Fishing",
+    "H Series",
+    "LX Series",
+    "Multi-Species",
+    "Outboard",
+    "RX Series",
+    "SLS Series",
+    "Solera Series",
+    "WX Series",
+    "WXR Series"
+  ],
+  "priceRange": {
+    "min": 0,
+    "max": 200000,
+    "step": 1000
+  },
+  "lengthRange": {
+    "min": 10,
+    "max": 35,
+    "step": 1
+  },
+  "beamRange": {
+    "min": 50,
+    "max": 120,
+    "step": 1
+  },
+  "horsepower": [25, 50, 75, 115, 150, 200, 250, 300]
+}
+
+

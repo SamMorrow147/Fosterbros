@@ -1,0 +1,34 @@
+# Files and directories to exclude from Vercel deployment
+
+# Utility scripts (scrapers are not needed in production)
+util/
+scraper-log.txt
+
+# Backup and temporary data files
+data/*backup*.json
+data/*demo*.json
+data/*progress*.json
+data/productUrlsToScrape.txt
+data/fosterbros_inventory.json
+data/inventory-complete.json
+data/inventory-enhanced.json
+data/inventory-enhanced-partial.json
+data/correct-pages.json
+data/product-pages.json
+
+# Documentation (optional, uncomment if you don't want docs deployed)
+# documentation/
+*.md
+!README.md
+
+# Development files
+.vscode/
+.idea/
+*.log
+.DS_Store
+
+# Test files
+*.test.js
+*.spec.js
+__tests__/
+

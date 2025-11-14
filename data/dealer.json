@@ -1,0 +1,29 @@
+{
+  "dealerName": "Foster Bros Marine",
+  "logo": "/logo.png",
+  "primaryColor": "#003366",
+  "secondaryColor": "#EDB60E",
+  "accentColor": "#0066CC",
+  "phone": "(763) 972-3011",
+  "email": "info@fosterbrosmarine.com",
+  "address": {
+    "street": "123 Marine Drive",
+    "city": "Delano",
+    "state": "MN",
+    "zip": "55328"
+  },
+  "hours": {
+    "weekdays": "Mon-Fri: 9:00 AM - 6:00 PM",
+    "saturday": "Sat: 9:00 AM - 5:00 PM",
+    "sunday": "Sun: Closed"
+  },
+  "social": {
+    "facebook": "https://facebook.com/fosterbrosmarine",
+    "instagram": "https://instagram.com/fosterbrosmarine",
+    "youtube": "https://youtube.com/fosterbrosmarine"
+  },
+  "inventorySource": "/data/inventory.json",
+  "tagline": "Your Premier Marine Dealer Since 1985"
+}
+
+

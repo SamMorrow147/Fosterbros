@@ -1,0 +1,546 @@
+/* Foster Bros Marine - Custom Styles */
+
+/* Full Width Navigation */
+.header-lower .themesflat-container {
+  max-width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.header-lower .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.header-style2 .nav-outer {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.header-style2 .navigation {
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+/* Overview Section - Styled like Specifications */
+.overview-section {
+  margin-bottom: 40px;
+}
+
+.overview-section h3 {
+  color: #333;
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: 600;
+  border-bottom: 2px solid #003366;
+  padding-bottom: 12px;
+}
+
+.overview-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: #e0e0e0;
+  border: 1px solid #e0e0e0;
+}
+
+@media (max-width: 768px) {
+  .overview-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.overview-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #fff;
+}
+
+.overview-label {
+  font-weight: 600;
+  color: #333;
+  font-size: 15px;
+}
+
+.overview-value {
+  font-weight: 400;
+  color: #666;
+  font-size: 15px;
+  text-align: right;
+}
+
+/* Dealer Notes Section */
+.dealer-notes-section {
+  margin-bottom: 40px;
+  padding: 30px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.dealer-notes-section h3 {
+  color: #003366;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  border-bottom: 2px solid #003366;
+  padding-bottom: 10px;
+}
+
+.dealer-notes-content p {
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Product Features Section */
+.product-features-section {
+  margin-bottom: 40px;
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.product-features-section h3 {
+  color: #003366;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.features-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.feature-item i {
+  color: #28a745;
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.feature-item span {
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Fix horizontal scroll caused by container.full + row negative margins */
+body {
+  overflow-x: hidden;
+}
+
+.themesflat-container.full {
+  overflow: hidden;
+}
+
+/* Filter Sidebar Styling */
+.filter-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #000 !important;
+}
+
+.filter-checkbox span {
+  color: #000 !important;
+  font-weight: 500;
+}
+
+.filter-title {
+  color: #000 !important;
+  font-weight: 600;
+}
+
+.filter-title span {
+  color: #000 !important;
+}
+
+/* Inventory Grid Enhancements */
+.inventory-grid-wrapper {
+  margin-top: 30px;
+}
+
+.results-header {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.results-count strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.sort-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sort-controls label {
+  margin: 0;
+}
+
+/* Product Card Badge Styles */
+.listing-badges {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.badge-new,
+.badge-available {
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-new {
+  background: #28a745;
+  color: white;
+}
+
+.badge-available {
+  background: #007bff;
+  color: white;
+}
+
+/* No Results State */
+.no-results-wrapper {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.no-results {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.no-results .icon-box-2 {
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.no-results h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.no-results p {
+  color: #666;
+}
+
+/* Detail Page Styles */
+.detail-gallery {
+  margin-bottom: 40px;
+}
+
+.detail-gallery .main-image {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.thumbnail-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.thumbnail {
+  cursor: pointer;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.thumbnail:hover,
+.thumbnail.active {
+  border-color: var(--primary-color);
+  transform: scale(1.05);
+}
+
+.detail-description,
+.detail-specifications {
+  margin-bottom: 40px;
+  padding: 30px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.detail-description h3,
+.detail-specifications h3 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.spec-item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background: white;
+  border-radius: 6px;
+  border-left: 3px solid var(--primary-color);
+}
+
+.spec-item .label {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.spec-item .value {
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Sidebar Styles */
+.detail-sidebar {
+  position: sticky;
+  top: 100px;
+}
+
+.price-card {
+  padding: 30px;
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.price-card .price {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.price-card .badges {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.price-card .badge {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.contact-cta {
+  margin-bottom: 20px;
+}
+
+.quick-specs {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.quick-specs h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.quick-specs ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-specs li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.quick-specs li:last-child {
+  border-bottom: none;
+}
+
+.quick-specs i {
+  color: var(--primary-color);
+  font-size: 18px;
+}
+
+/* Related Products */
+.related-products {
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.related-products h3 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* Filter Sidebar Enhancements */
+.widget-sidebar-car-list {
+  position: sticky;
+  top: 100px;
+}
+
+.widget-filter .widget-heading {
+  padding: 20px;
+  background: var(--primary-color);
+  color: white;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 0;
+}
+
+.widget-filter .widget-heading h5 {
+  color: white;
+  margin: 0;
+}
+
+.tf-btn-reset {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 1px solid white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tf-btn-reset:hover {
+  background: white;
+  color: var(--primary-color);
+}
+
+.group-form {
+  padding: 20px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+}
+
+.result-count {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+/* Find Your Boat Section */
+.widget-search-car h3 {
+  color: #333;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.button-reset-listing {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-reset-listing:hover {
+  background: #5a6268;
+  transform: translateY(-2px);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+  .detail-sidebar {
+    position: static;
+    margin-top: 40px;
+  }
+  
+  .widget-sidebar-car-list {
+    position: static;
+    margin-bottom: 40px;
+  }
+  
+  .specs-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .results-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .sort-controls {
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .price-card .price {
+    font-size: 28px;
+  }
+  
+  .thumbnail-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Not Found Page */
+.not-found {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.not-found h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.not-found p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+

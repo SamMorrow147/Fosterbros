@@ -1,0 +1,299 @@
+🚀 Starting comprehensive dealer notes scraper...
+
+⏰ This will take approximately 60-90 minutes
+
+💡 Using stealth mode to bypass Cloudflare protection
+
+🏠 Step 1: Establishing browsing session...
+✅ Homepage loaded
+📋 Step 2: Browsing inventory...
+✅ Inventory page loaded
+[1/63] ⏭️  Skipping 2026 Mitey-Toon Mini Electric Pontoon- T... (already has notes)
+[2/63] ⏭️  Skipping 2025 Kingfisher Boats 1825 FALCON... (already has notes)
+[3/63] ⏭️  Skipping 2025 Kingfisher Boats 2825 Coastal Expre... (already has notes)
+[4/63] ⏭️  Skipping 2025 SeaArk 1652 DXS SLD... (already has notes)
+[5/63] ⏭️  Skipping 2025 SeaArk Predator 300 AK Jet Boat... (already has notes)
+[6/63] ⏭️  Skipping 2026 Kingfisher Boats 25 XAC... (already has notes)
+[7/63] ⏭️  Skipping 2025 Skeeter WX1910... (already has notes)
+[8/63] ⏭️  Skipping 2026 Kingfisher Boats 2225 Escape HT... (already has notes)
+[9/63] ⏭️  Skipping 2008 Four Winns H200 FRENZY Reduced Pric... (already has notes)
+[10/63] ⏭️  Skipping 2025 Skeeter WXR2260... (already has notes)
+
+[11/63] 📝 2025 Yar-Craft 219 TFX Dealer Demo!
+   ⏳ Waiting 35s...
+   🌐 Loading 2025-yar-craft-219-tfx-dealer-demo-delano-mn-55328-13365748i
+   ✅ Got dealer notes (1121 chars)
+
+[12/63] 📝 2026 Skeeter WXR-2060
+   ⏳ Waiting 22s...
+   🌐 Loading 2026-skeeter-wxr-2060-delano-mn-55328-13454260i
+   ✅ Got dealer notes (596 chars)
+   💾 Progress saved (12 successful, 0 no notes)
+
+[13/63] 📝 2026 Skeeter WXR2060F
+   ⏳ Waiting 37s...
+   🌐 Loading 2026-skeeter-wxr2060f-delano-mn-55328-13579317i
+   ✅ Got dealer notes (954 chars)
+
+[14/63] 📝 2026 Kingfisher Boats 2725 XRS
+   ⏳ Waiting 34s...
+   🌐 Loading 2026-kingfisher-boats-2725-xrs-delano-mn-55328-13621971i
+   ✅ Got dealer notes (1926 chars)
+
+[15/63] 📝 2026 Kingfisher Boats 2425 Escape HT
+   ⏳ Waiting 25s...
+   🌐 Loading 2026-kingfisher-boats-2425-escape-ht-delano-mn-55328-13641128i
+   ✅ Got dealer notes (1613 chars)
+   💾 Progress saved (15 successful, 0 no notes)
+
+[16/63] 📝 2026 Kingfisher Boats 2025 Escape HT
+   ⏳ Waiting 33s...
+   🌐 Loading 2026-kingfisher-boats-2025-escape-ht-delano-mn-55328-13643725i
+   ✅ Got dealer notes (1084 chars)
+
+[17/63] 📝 2026 Kingfisher Boats 2025 Escape ST
+   ⏳ Waiting 39s...
+   🌐 Loading 2026-kingfisher-boats-2025-escape-st-delano-mn-55328-13649233i
+   ✅ Got dealer notes (978 chars)
+
+[18/63] 📝 2026 Kingfisher Boats 1925 Arrow Sport
+   ⏳ Waiting 27s...
+   🌐 Loading 2026-kingfisher-boats-1925-arrow-sport-delano-mn-55328-13651894i
+   ✅ Got dealer notes (696 chars)
+   💾 Progress saved (18 successful, 0 no notes)
+
+[19/63] 📝 2026 Kingfisher Boats 2125 Arrow Sport
+   ⏳ Waiting 24s...
+   🌐 Loading 2026-kingfisher-boats-2125-arrow-sport-delano-mn-55328-13653563i
+   ✅ Got dealer notes (847 chars)
+
+[20/63] 📝 2025 Skeeter Solera 205
+   ⏳ Waiting 28s...
+   🌐 Loading 2025-skeeter-solera-205-delano-mn-55328-13679871i
+   ✅ Got dealer notes (614 chars)
+
+[21/63] 📝 2024 Kingfisher Boats Falcon 1825
+   ⏳ Waiting 40s...
+   🌐 Loading 2024-kingfisher-boats-falcon-1825-delano-mn-55328-13685751i
+   ✅ Got dealer notes (873 chars)
+   💾 Progress saved (21 successful, 0 no notes)
+
+[22/63] 📝 2025 Skeeter WXR Series WXR2060
+   ⏳ Waiting 22s...
+   🌐 Loading 2025-skeeter-wxr-series-wxr2060-delano-mn-55328-13687768i
+   ✅ Got dealer notes (1047 chars)
+
+[23/63] 📝 2025 Kingfisher Boats Warrior Sport 1825
+   ⏳ Waiting 22s...
+   🌐 Loading 2025-kingfisher-boats-warrior-sport-1825-delano-mn-55328-13688248i
+   ✅ Got dealer notes (602 chars)
+
+[24/63] 📝 2025 Yar-Craft 186 TFX SP
+   ⏳ Waiting 29s...
+   🌐 Loading 2025-yar-craft-186-tfx-sp-delano-mn-55328-13708565i
+   ✅ Got dealer notes (969 chars)
+   💾 Progress saved (24 successful, 0 no notes)
+
+[25/63] 📝 2025 Yar-Craft 219 TFX
+   ⏳ Waiting 37s...
+   🌐 Loading 2025-yar-craft-219-tfx-delano-mn-55328-13708814i
+   ✅ Got dealer notes (894 chars)
+
+[26/63] 📝 Honda Marine BF2.3 - 15 in.
+   ⏳ Waiting 36s...
+   🌐 Loading honda-marine-bf23-15-in-delano-mn-55328-1967553i
+   ✅ Got dealer notes (858 chars)
+[27/63] ⏭️  Skipping Honda Marine BF2.3 - 20 in. Long Shaft... (already has notes)
+
+[28/63] 📝 Honda Marine BF9.9 Short Shaft Manual Start
+   ⏳ Waiting 27s...
+   🌐 Loading honda-marine-bf99-short-shaft-manual-start-delano-mn-55328-2350535i
+   ✅ Got dealer notes (646 chars)
+
+[29/63] 📝 Honda Marine BF9.9 Long Shaft Manual Start
+   ⏳ Waiting 21s...
+   🌐 Loading honda-marine-bf99-long-shaft-manual-start-delano-mn-55328-12705693i
+   ✅ Got dealer notes (717 chars)
+
+[30/63] 📝 Honda Marine BF9.9 Short Shaft Electric Start
+   ⏳ Waiting 26s...
+   🌐 Loading honda-marine-bf99-short-shaft-electric-start-delano-mn-55328-12708652i
+   ✅ Got dealer notes (661 chars)
+   💾 Progress saved (30 successful, 0 no notes)
+
+[31/63] 📝 Honda Marine BF9.9 Long Shaft Electric Start
+   ⏳ Waiting 37s...
+   🌐 Loading honda-marine-bf99-long-shaft-electric-start-delano-mn-55328-12708705i
+   ✅ Got dealer notes (678 chars)
+
+[32/63] 📝 Honda Marine BF20 Long Shaft Manual Start
+   ⏳ Waiting 40s...
+   🌐 Loading honda-marine-bf20-long-shaft-manual-start-delano-mn-55328-12708999i
+   ✅ Got dealer notes (474 chars)
+
+[33/63] 📝 Honda Marine BF20 Long Shaft Electric Start tilt/trim
+   ⏳ Waiting 29s...
+   🌐 Loading honda-marine-bf20-long-shaft-electric-start-tilttrim-delano-mn-55328-12709408i
+   ✅ Got dealer notes (642 chars)
+   💾 Progress saved (33 successful, 0 no notes)
+
+[34/63] 📝 Honda Marine BF20 Short Shaft Electric Start tilt/trim
+   ⏳ Waiting 23s...
+   🌐 Loading honda-marine-bf20-short-shaft-electric-start-tilttrim-delano-mn-55328-12709418i
+   ✅ Got dealer notes (644 chars)
+
+[35/63] 📝 Honda Marine BF60
+   ⏳ Waiting 34s...
+   🌐 Loading honda-marine-bf60-delano-mn-55328-12718113i
+   ✅ Got dealer notes (597 chars)
+
+[36/63] 📝 Honda Marine BF100
+   ⏳ Waiting 22s...
+   🌐 Loading honda-marine-bf100-delano-mn-55328-12726344i
+   ✅ Got dealer notes (873 chars)
+   💾 Progress saved (36 successful, 0 no notes)
+
+[37/63] 📝 Honda Marine BF75
+   ⏳ Waiting 33s...
+   🌐 Loading honda-marine-bf75-delano-mn-55328-12736851i
+   ✅ Got dealer notes (887 chars)
+
+[38/63] 📝 Honda Marine BF90
+   ⏳ Waiting 25s...
+   🌐 Loading honda-marine-bf90-delano-mn-55328-12736875i
+   ✅ Got dealer notes (883 chars)
+
+[39/63] 📝 Honda Marine BF115
+   ⏳ Waiting 26s...
+   🌐 Loading honda-marine-bf115-delano-mn-55328-12737261i
+   ✅ Got dealer notes (819 chars)
+   💾 Progress saved (39 successful, 0 no notes)
+
+[40/63] 📝 Honda Marine BF150
+   ⏳ Waiting 33s...
+   🌐 Loading honda-marine-bf150-delano-mn-55328-12737274i
+   ✅ Got dealer notes (895 chars)
+
+[41/63] 📝 2023 Yamaha T9. 9XPB
+   ⏳ Waiting 21s...
+   🌐 Loading 2023-yamaha-t9-9xpb-delano-mn-55328-13198006i
+   ✅ Got dealer notes (650 chars)
+
+[42/63] 📝 Honda Marine BF40
+   ⏳ Waiting 22s...
+   🌐 Loading honda-marine-bf40-delano-mn-55328-13742990i
+   ✅ Got dealer notes (1018 chars)
+   💾 Progress saved (42 successful, 0 no notes)
+
+[43/63] 📝 Honda Marine BF 15
+   ⏳ Waiting 30s...
+   🌐 Loading honda-marine-bf-15-delano-mn-55328-13747785i
+   ✅ Got dealer notes (82 chars)
+
+[44/63] 📝 Honda Marine BF 15
+   ⏳ Waiting 35s...
+   🌐 Loading honda-marine-bf-15-delano-mn-55328-13747810i
+   ✅ Got dealer notes (93 chars)
+
+[45/63] 📝 Honda Marine BF 50
+   ⏳ Waiting 39s...
+   🌐 Loading honda-marine-bf-50-delano-mn-55328-13751356i
+   ✅ Got dealer notes (1040 chars)
+   💾 Progress saved (45 successful, 0 no notes)
+
+[46/63] 📝 2025 Hansen Mid-America pontoon Bunk Trailers Taking orders!
+   ⏳ Waiting 38s...
+   🌐 Loading 2025-hansen-mid-america-pontoon-bunk-trailers-taking-orders-delano-mn-55328-2110640i
+   ✅ Got dealer notes (413 chars)
+
+[47/63] 📝 2025 Tebben Trailers PSL2123 Scissor Trailer
+   ⏳ Waiting 38s...
+   🌐 Loading 2025-tebben-trailers-psl2123-scissor-trailer-delano-mn-55328-12918287i
+   ✅ Got dealer notes (414 chars)
+
+[48/63] 📝 2025 Hansen PTV20T Bunk Trailer
+   ⏳ Waiting 27s...
+   🌐 Loading 2025-hansen-ptv20t-bunk-trailer-delano-mn-55328-12927678i
+   ✅ Got dealer notes (404 chars)
+   💾 Progress saved (48 successful, 0 no notes)
+
+[49/63] 📝 2025 Hansen PTV22T Bunk Trailer With Brakes
+   ⏳ Waiting 32s...
+   🌐 Loading 2025-hansen-ptv22t-bunk-trailer-with-brakes-delano-mn-55328-12936817i
+   ✅ Got dealer notes (403 chars)
+
+[50/63] 📝 2025 Hansen PT24T Bunk Trailer
+   ⏳ Waiting 26s...
+   🌐 Loading 2025-hansen-pt24t-bunk-trailer-delano-mn-55328-12936825i
+   ✅ Got dealer notes (414 chars)
+
+[51/63] 📝 2025 Hansen PTV22T
+   ⏳ Waiting 30s...
+   🌐 Loading 2025-hansen-ptv22t-delano-mn-55328-13470702i
+   ✅ Got dealer notes (707 chars)
+   💾 Progress saved (51 successful, 0 no notes)
+[52/63] ⏭️  Skipping 2017 Manitou AURORA LE... (already has notes)
+[53/63] ⏭️  Skipping 2025 Starcraft EXS-3  Hail Damage Sale... (already has notes)
+
+[54/63] 📝 2025 Starcraft EXS-3 Hail Damage Sale
+   ⏳ Waiting 26s...
+   🌐 Loading 2025-starcraft-exs-3-hail-damage-sale-delano-mn-55328-13736825i
+   ✅ Got dealer notes (645 chars)
+   💾 Progress saved (54 successful, 0 no notes)
+
+[55/63] 📝 2025 Starcraft SLS-3 Tri-Toon - Hail Damage Sale
+   ⏳ Waiting 34s...
+   🌐 Loading 2025-starcraft-sls-3-tri-toon-hail-damage-sale-delano-mn-55328-13736857i
+   ✅ Got dealer notes (803 chars)
+
+[56/63] 📝 2024 Starcraft RX 23 DL DC
+   ⏳ Waiting 20s...
+   🌐 Loading 2024-starcraft-rx-23-dl-dc-delano-mn-55328-13736996i
+   ✅ Got dealer notes (868 chars)
+
+[57/63] 📝 2025 Starcraft EXS-1 Tri-Toon Hail Damage Sale
+   ⏳ Waiting 22s...
+   🌐 Loading 2025-starcraft-exs-1-tri-toon-hail-damage-sale-delano-mn-55328-13737122i
+   ✅ Got dealer notes (674 chars)
+   💾 Progress saved (57 successful, 0 no notes)
+
+[58/63] 📝 2025 Starcraft LX 22 R Triple - Hail Damage Sale
+   ⏳ Waiting 31s...
+   🌐 Loading 2025-starcraft-lx-22-r-triple-hail-damage-sale-delano-mn-55328-13738477i
+   ✅ Got dealer notes (649 chars)
+
+[59/63] 📝 2025 Starcraft EX 22 R
+   ⏳ Waiting 34s...
+   🌐 Loading 2025-starcraft-ex-22-r-delano-mn-55328-13738490i
+   ✅ Got dealer notes (467 chars)
+
+[60/63] 📝 2026 Starcraft GX 20 R DH Coming Soon!
+   ⏳ Waiting 36s...
+   🌐 Loading 2026-starcraft-gx-20-r-dh-coming-soon-delano-mn-55328-13738497i
+   ✅ Got dealer notes (881 chars)
+   💾 Progress saved (60 successful, 0 no notes)
+
+[61/63] 📝 2025 Starcraft LX 22 F
+   ⏳ Waiting 26s...
+   🌐 Loading 2025-starcraft-lx-22-f-delano-mn-55328-13738573i
+   ✅ Got dealer notes (627 chars)
+
+[62/63] 📝 2025 Starcraft CX 23 RL Triple Toon
+   ⏳ Waiting 36s...
+   🌐 Loading 2025-starcraft-cx-23-rl-triple-toon-delano-mn-55328-13738627i
+   ✅ Got dealer notes (677 chars)
+[63/63] ⏭️  Skipping 2025 Starcraft RX 23 DL DC... (already has notes)
+
+============================================================
+✅ SCRAPING COMPLETE!
+============================================================
+📊 Results:
+   ✅ Successful: 63
+   ⚠️  No notes: 0
+   📦 Total: 63
+
+💾 Files saved:
+   - data/inventory.json (main file - UPDATED)
+   - data/inventory-complete.json (backup)
+
+🎉 All dealer notes have been added to your inventory!
