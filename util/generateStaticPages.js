@@ -64,3 +64,4 @@ export default function ${slug.charAt(0).toUpperCase() + slug.slice(1).replace(/
 
 generatePages().catch(console.error);
 
+

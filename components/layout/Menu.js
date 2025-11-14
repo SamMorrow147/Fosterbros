@@ -9,6 +9,7 @@ export default function Menu() {
                 <li className="dropdown2">
                     <Link href="/inventory?availability=In Stock">Current Inventory</Link>
                     <ul>
+                        <li><Link href="/inventory">All Inventory</Link></li>
                         <li><Link href="/inventory?availability=In Stock&type=Outboard Motors">Outboard Inventory</Link></li>
                     </ul>
                 </li>

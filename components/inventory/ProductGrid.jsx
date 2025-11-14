@@ -20,7 +20,7 @@ export default function ProductGrid({ products, sortBy = 'year', onSortChange })
   return (
     <div className="inventory-grid-wrapper">
       {/* Results Header */}
-      <div className="results-header flex items-center justify-between">
+      <div className="results-header flex items-center">
         <div className="results-count">
           <p className="body-2">
             Showing <strong>{products.length}</strong> {products.length === 1 ? 'result' : 'results'}

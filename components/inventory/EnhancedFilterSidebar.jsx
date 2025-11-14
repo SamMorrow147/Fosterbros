@@ -81,23 +81,144 @@ export default function EnhancedFilterSidebar({
     onFilterChange({});
   };
 
-  // Count active filters
-  const activeFilterCount = Object.keys(filters).filter(key => {
-    const value = filters[key];
-    return value !== null && value !== undefined && 
-           (Array.isArray(value) ? value.length > 0 : true);
-  }).length;
+  // Helper function to format filter names
+  const formatFilterName = (key) => {
+    const nameMap = {
+      types: 'Type',
+      usage: 'Usage',
+      brands: 'Brand',
+      categories: 'Class',
+      years: 'Year',
+      availability: 'Status',
+      fuelTypes: 'Fuel Type',
+      engineTypes: 'Engine Type',
+      lengthMin: 'Min Length',
+      lengthMax: 'Max Length',
+      beamMin: 'Min Beam',
+      beamMax: 'Max Beam',
+      horsepowerMin: 'Min HP',
+      horsepowerMax: 'Max HP',
+      priceMin: 'Min Price',
+      priceMax: 'Max Price',
+    };
+    return nameMap[key] || key;
+  };
+
+  // Helper function to format filter values
+  const formatFilterValue = (key, value) => {
+    if (key.includes('price')) {
+      return `$${parseInt(value).toLocaleString()}`;
+    }
+    if (key.includes('length')) {
+      return `${value} ft`;
+    }
+    if (key.includes('beam')) {
+      return `${value} in`;
+    }
+    if (key.includes('horsepower')) {
+      return `${value} hp`;
+    }
+    return value;
+  };
+
+  // Convert filters object to array of displayable items
+  const getActiveFilterItems = () => {
+    const items = [];
+    
+    Object.keys(filters).forEach(key => {
+      const value = filters[key];
+      
+      // Skip null, undefined, or empty values
+      if (value === null || value === undefined || 
+          (Array.isArray(value) && value.length === 0)) {
+        return;
+      }
+
+      // Handle array filters (multiple selections)
+      if (Array.isArray(value)) {
+        value.forEach(item => {
+          items.push({
+            key: key,
+            value: item,
+            displayName: formatFilterName(key),
+            displayValue: formatFilterValue(key, item),
+            type: 'array'
+          });
+        });
+      } 
+      // Handle range filters (min/max values)
+      else {
+        items.push({
+          key: key,
+          value: value,
+          displayName: formatFilterName(key),
+          displayValue: formatFilterValue(key, value),
+          type: 'single'
+        });
+      }
+    });
+
+    return items;
+  };
+
+  const handleRemoveFilter = (filterKey, filterValue, filterType) => {
+    const newFilters = { ...filters };
+    
+    if (filterType === 'array') {
+      // Remove specific value from array
+      const currentValues = newFilters[filterKey] || [];
+      const updatedValues = currentValues.filter(v => v !== filterValue);
+      
+      if (updatedValues.length === 0) {
+        delete newFilters[filterKey];
+      } else {
+        newFilters[filterKey] = updatedValues;
+      }
+    } else {
+      // Remove single value or range value
+      delete newFilters[filterKey];
+    }
+    
+    onFilterChange(newFilters);
+  };
+
+  const activeItems = getActiveFilterItems();
 
   return (
     <div className="enhanced-filter-sidebar">
       <div className="filter-header">
         <h3>Filters by:</h3>
-        {activeFilterCount > 0 && (
+        {activeItems.length > 0 && (
           <button className="clear-filters" onClick={clearAllFilters}>
-            Clear All ({activeFilterCount})
+            Clear All
           </button>
         )}
       </div>
+
+      {/* Active Filters Display */}
+      {activeItems.length > 0 && (
+        <div className="active-filters-section">
+          <div className="active-filters-tags">
+            {activeItems.map((item, index) => {
+              const tagId = `${item.key}-${item.value}-${index}`;
+              
+              return (
+                <div key={tagId} className="filter-tag">
+                  <span className="filter-tag-label">{item.displayName}:</span>
+                  <span className="filter-tag-value">{item.displayValue}</span>
+                  <button 
+                    className="filter-tag-remove"
+                    onClick={() => handleRemoveFilter(item.key, item.value, item.type)}
+                    aria-label={`Remove ${item.displayName}: ${item.displayValue}`}
+                  >
+                    ×
+                  </button>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {/* Type Filter */}
       {!context.hideType && availableOptions.types?.length > 0 && (
@@ -456,10 +577,72 @@ export default function EnhancedFilterSidebar({
           border-radius: 4px;
           cursor: pointer;
           font-size: 14px;
+          transition: background 0.2s;
         }
 
         .clear-filters:hover {
           background: #c82333;
+        }
+
+        .active-filters-section {
+          padding: 15px 20px;
+          background: #f8f9fa;
+          border-bottom: 1px solid #e0e0e0;
+        }
+
+        .active-filters-tags {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+        }
+
+        .filter-tag {
+          display: inline-flex;
+          align-items: center;
+          background: white;
+          border: 1px solid #007bff;
+          border-radius: 20px;
+          padding: 6px 12px;
+          font-size: 13px;
+          gap: 6px;
+          transition: all 0.2s;
+        }
+
+        .filter-tag:hover {
+          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .filter-tag-label {
+          color: #666;
+          font-weight: 500;
+        }
+
+        .filter-tag-value {
+          color: #007bff;
+          font-weight: 600;
+        }
+
+        .filter-tag-remove {
+          background: none;
+          border: none;
+          color: #dc3545;
+          font-size: 18px;
+          line-height: 1;
+          cursor: pointer;
+          padding: 0;
+          margin-left: 4px;
+          width: 16px;
+          height: 16px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          transition: all 0.2s;
+        }
+
+        .filter-tag-remove:hover {
+          background: #dc3545;
+          color: white;
         }
 
         .filter-section {

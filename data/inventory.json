@@ -1464,57 +1464,6 @@
     "productFeatures": "Product Features\nDealer Notes\nHonda 2.3 HP - self contained gas, short shaft, manual start 4-stroke.\n\nWe typically stock this engine - always call first before coming out if you want to look at it.\n\nBacked by Honda's 5-year warranty\n\nThe best things come in small packages.\nAnd that’s especially true with Honda’s BF2.3, one of the world’s lightest four-stroke outboards. The BF2.3 is so light, it rivals many two-stroke 2HP engines and electric motors, without the battery!\n\nBut just because it’s lightweight doesn’t mean we cut back on the power. The BF2.3 features 15% more power over its predecessor. Plus we added a 12% larger internal gas tank, which provides for about one hour of operation at wide open throttle. It’s a technologically advanced design that gives you power and performance – without sacrificing portability.\n\nPerfect 4 stroke motor for a small boat or a Sail Boat."
   },
   {
-    "id": "27",
-    "productId": "1967564i",
-    "slug": "honda-marine-bf23-20-in-long-shaft-1967564i",
-    "title": "Honda Marine BF2.3 - 20 in. Long Shaft",
-    "brand": "Honda",
-    "make": "Honda",
-    "category": "Engines",
-    "type": "Engines",
-    "style": "Standard",
-    "usage": "New",
-    "availability": "In Stock",
-    "year": 2025,
-    "price": null,
-    "length": null,
-    "beam": null,
-    "fuelType": "Gas",
-    "engineType": "Single-Cylinder",
-    "horsepower": null,
-    "imagesFull": [
-      "/assets/images/inventory/1967564i/honda-marine-bf2-3---20-in--lo-1-Honda+True+5+Year+Warranty_Color_catalog.jpg",
-      "/assets/images/inventory/1967564i/honda-marine-bf2-3---20-in--lo-2-Honda+Premier.png",
-      "/assets/images/inventory/1967564i/honda-marine-bf2-3---20-in--lo-3-Asset+2+(002).png"
-    ],
-    "imagesThumb": [
-      "/assets/images/inventory/1967564i/honda-marine-bf2-3---20-in--lo-1-Honda+True+5+Year+Warranty_Color_catalog.jpg"
-    ],
-    "description": "Honda Marine BF2.3 - 20 in. Long Shaft available at Foster Bros Marine in Delano, MN.",
-    "specs": {
-      "Engine Type": "Single-Cylinder",
-      "Bore x Stroke": "Bore: 1.8 in. (45 mm); Stroke: 1.4 in. (36 mm)",
-      "Displacement": "3.5 cu. in. (57.2 cc)",
-      "Starting": "Pull",
-      "Trim Method": "Manual",
-      "Propshaft Horsepower": "2.3 bhp; 1.7 kW",
-      "Fuel Induction": "Carburetor",
-      "Cooling": "Air",
-      "Steering": "Tiller",
-      "Warranty": "60",
-      "Essential": "These are scripts and tags needed to enable core functionality such as accessibility, security, and form functionality. These scripts and tags are an important part of the way the website functions.",
-      "Functional": "These scripts are used to provide a better customer experience. They allow us to store your preferences and help us deliver more personalized content They also enable us to collect information about who visits our site and how visitors interact with our site. We then use that information to improve our performance. For example, understanding how long pages take to load, enabling personalization so you can quickly find vehicles again or tracking the performance of ad campaigns.",
-      "Advertising": "These scripts are used to display ads that are more relevant to you, as well as to measure advertising performance. We may share this information with advertisers or use it to better understand your interests. These scripts may also be used to provide ads based on preferences that have been collected across various sites and online applications."
-    },
-    "location": "Delano, MN",
-    "stockNumber": "BF2.3 - 20 in. Long Shaft",
-    "vin": null,
-    "url": "https://www.fosterbrosmarine.com/inventory/honda-marine-bf23-20-in-long-shaft-delano-mn-55328-1967564i",
-    "scrapedAt": "2025-11-13T01:33:36.161Z",
-    "dealerNotes": "Honda Marine reliability in a portable package. The BF2.3 is perfect for dinghies, jon boats, and small inflatables.\n\nFeatures include: Centrifugal clutch for easy starting, Built-in fuel tank, Twist grip throttle control, 360-degree steering.\n\nHonda's 4-stroke technology means no mixing oil and gas, quiet operation, and excellent fuel economy.",
-    "productFeatures": "4-Stroke Technology\nCentrifugal Clutch\nBuilt-in Fuel Tank\n360-Degree Steering\nQuiet Operation\nNo Oil Mixing Required"
-  },
-  {
     "id": "28",
     "productId": "2350535i",
     "slug": "honda-marine-bf99-short-shaft-manual-start-2350535i",

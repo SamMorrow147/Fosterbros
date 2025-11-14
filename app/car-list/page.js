@@ -38,7 +38,6 @@ export default function CarList() {
                     <div className="widget-banner-car-listing banner-car-listing-list">
                         <div className="themesflat-container full">
                             <div className="banner-car-listing">
-                                <span className="sub-title">Save up to 15%</span>
                                 <h1 className="title text-white">Foster Bros <span className="text-red">Marine</span> Boats</h1>
                             </div>
                         </div>

@@ -97,11 +97,10 @@
 .tf-page-title {
     & .page-title {
         padding: 144px 0;
-        background-image: url(./../images/page/page-title.jpg);
+        background-color: #273b97;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        animation: shrink 7s infinite alternate;
 
         & span {
             font-size: 16px;

@@ -29,6 +29,7 @@ export default function MobileMenu() {
                 <li className={isActive.key == 1 ? "dropdown2 current" : "dropdown2"}>
                     <Link href="/inventory?availability=In Stock">Current Inventory</Link>
                     <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
+                        <li><Link href="/inventory">All Inventory</Link></li>
                         <li><Link href="/inventory?availability=In Stock&type=Outboard Motors">Outboard Inventory</Link></li>
                     </ul>
                     <div className={isActive.key == 1 ? "dropdown2-btn open" : "dropdown2-btn"} onClick={() => handleToggle(1)}>

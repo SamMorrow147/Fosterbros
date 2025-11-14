@@ -214,6 +214,13 @@ function getAllAvailableOptions(data, currentFilters = {}) {
     return {};
   }
 
+  // Helper function to get options for a specific filter while excluding that filter from the current filters
+  const getOptionsForFilter = (filterKey) => {
+    const filtersWithoutCurrent = { ...currentFilters };
+    delete filtersWithoutCurrent[filterKey];
+    return filterInventory(data, filtersWithoutCurrent);
+  };
+
   // Initialize collections
   const options = {
     usage: new Map(),
@@ -231,56 +238,96 @@ function getAllAvailableOptions(data, currentFilters = {}) {
     horsepowerRange: { min: Infinity, max: 0 }
   };
 
-  // Count occurrences
-  data.forEach(item => {
-    // Usage
+  // Get filtered data for each filter type
+  const usageFiltered = getOptionsForFilter('usage');
+  const typesFiltered = getOptionsForFilter('types');
+  const brandsFiltered = getOptionsForFilter('brands');
+  const categoriesFiltered = getOptionsForFilter('categories');
+  const stylesFiltered = getOptionsForFilter('styles');
+  const yearsFiltered = getOptionsForFilter('years');
+  const availabilityFiltered = getOptionsForFilter('availability');
+  const fuelTypesFiltered = getOptionsForFilter('fuelTypes');
+  const engineTypesFiltered = getOptionsForFilter('engineTypes');
+  
+  // Get filtered data for ranges (exclude min/max filters)
+  const filtersWithoutRanges = { ...currentFilters };
+  delete filtersWithoutRanges.priceMin;
+  delete filtersWithoutRanges.priceMax;
+  delete filtersWithoutRanges.lengthMin;
+  delete filtersWithoutRanges.lengthMax;
+  delete filtersWithoutRanges.beamMin;
+  delete filtersWithoutRanges.beamMax;
+  delete filtersWithoutRanges.horsepowerMin;
+  delete filtersWithoutRanges.horsepowerMax;
+  const rangeFiltered = filterInventory(data, filtersWithoutRanges);
+
+  // Count usage options
+  usageFiltered.forEach(item => {
     if (item.usage && item.usage !== "= productDataSource.usageStatus.trim();") {
       options.usage.set(item.usage, (options.usage.get(item.usage) || 0) + 1);
     }
-    
-    // Types
+  });
+
+  // Count types
+  typesFiltered.forEach(item => {
     if (item.type) {
       options.types.set(item.type, (options.types.get(item.type) || 0) + 1);
     }
-    
-    // Brands (combine brand and make)
+  });
+
+  // Count brands
+  brandsFiltered.forEach(item => {
     if (item.brand) {
       options.brands.set(item.brand, (options.brands.get(item.brand) || 0) + 1);
     } else if (item.make) {
       options.brands.set(item.make, (options.brands.get(item.make) || 0) + 1);
     }
-    
-    // Categories
+  });
+
+  // Count categories
+  categoriesFiltered.forEach(item => {
     if (item.category) {
       options.categories.set(item.category, (options.categories.get(item.category) || 0) + 1);
     }
-    
-    // Styles
+  });
+
+  // Count styles
+  stylesFiltered.forEach(item => {
     if (item.style) {
       options.styles.set(item.style, (options.styles.get(item.style) || 0) + 1);
     }
-    
-    // Years
+  });
+
+  // Count years
+  yearsFiltered.forEach(item => {
     if (item.year) {
       options.years.set(item.year, (options.years.get(item.year) || 0) + 1);
     }
-    
-    // Availability
+  });
+
+  // Count availability
+  availabilityFiltered.forEach(item => {
     if (item.availability) {
       options.availability.set(item.availability, (options.availability.get(item.availability) || 0) + 1);
     }
-    
-    // Fuel Types
+  });
+
+  // Count fuel types
+  fuelTypesFiltered.forEach(item => {
     if (item.fuelType) {
       options.fuelTypes.set(item.fuelType, (options.fuelTypes.get(item.fuelType) || 0) + 1);
     }
-    
-    // Engine Types
+  });
+
+  // Count engine types
+  engineTypesFiltered.forEach(item => {
     if (item.engineType) {
       options.engineTypes.set(item.engineType, (options.engineTypes.get(item.engineType) || 0) + 1);
     }
-    
-    // Numeric ranges
+  });
+
+  // Calculate numeric ranges from range-filtered data
+  rangeFiltered.forEach(item => {
     if (item.price && !isNaN(item.price)) {
       options.priceRange.min = Math.min(options.priceRange.min, item.price);
       options.priceRange.max = Math.max(options.priceRange.max, item.price);

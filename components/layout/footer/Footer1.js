@@ -37,6 +37,7 @@ export default function Footer1() {
                                 <h3>Quick Links</h3>
                                 <ul className="box-menu">
                                     <li><Link href="/inventory?availability=In Stock">Current Inventory</Link></li>
+                                    <li><Link href="/inventory">All Inventory</Link></li>
                                     <li><Link href="/brands">Boat Brands</Link></li>
                                     <li><Link href="/inventory?type=Outboard Motors&availability=In Stock">Outboards</Link></li>
                                     <li><Link href="/products">Products</Link></li>

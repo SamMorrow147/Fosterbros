@@ -272,3 +272,4 @@ Everything is configured and tested. You can deploy with confidence!
 **Framework**: Next.js 14.0.1  
 **Deployment**: Vercel
 
+
