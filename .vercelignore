@@ -1,7 +1,16 @@
 # Files and directories to exclude from Vercel deployment
 
-# Utility scripts (scrapers are not needed in production)
-util/
+# Scraper utility scripts (not needed in production)
+util/scrape*.js
+util/addMissingSpecs.js
+util/additionalDealerNotes.js
+util/checkScraperProgress.js
+util/generate*.js
+util/manualDealerNotes.js
+util/mergeProductDetails.js
+util/rescrapeProduct.js
+util/blog.json
+util/debug-bf115.png
 scraper-log.txt
 
 # Backup and temporary data files
